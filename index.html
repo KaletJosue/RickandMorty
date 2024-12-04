@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/start.css" />
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <title>Rick and Morty</title>
+    <!-- Iconos -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/460146b1b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <img src="/assets/portal.jpg" alt="">
+            <ul class="menu">
+                <li><a href="#hero2">Inicio</a></li>
+                <li><a href="#cap">Capitulos</a></li>
+                <li><a href="#prota">Protagonistas</a></li>
+                <li><a href="#contact">Contactanos</a></li>
+                <li><a href="/views/personajes.html">Personajes</a></li>
+            </ul>
+        </nav>
+
+        <nav class="sticky">
+            <img src="/assets/portal.jpg" alt="">
+            <ul>
+                <li><a><i class="ph-fill ph-whatsapp-logo"></i></a></li>
+                <li><a><i class="ph-fill ph-facebook-logo"></i></a></li>
+                <li><a><i class="ph-fill ph-instagram-logo"></i></a></li>
+                <li><a href="#hero2">Inicio</a></li>
+                <li><a href="#cap">Capitulos</a></li>
+                <li><a href="#prota">Protagonistas</a></li>
+                <li><a href="#contact">Contactanos</a></li>
+                <li><a href="/views/personajes.html">Personajes</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero" id="hero2">
+            <img src="/assets/img1.png" alt="">
+            <div class="text_hero">
+                <h1>RICK Y MORTY</h1>
+                <p>
+                    Rick y Morty es una serie animada de ciencia ficción que narra las aventuras de Rick Sánchez, un
+                    científico excéntrico y alcohólico, y su nieto Morty Smith, un adolescente nervioso. Juntos viajan a
+                    través de dimensiones paralelas, planetas alienígenas y realidades alternativas, enfrentando
+                    criaturas extrañas, dilemas existenciales y peligros intergalácticos.</p>
+                <a href="/views/coments.html">+ Info</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="videos" id="cap">
+        <h1>AQUI TE DEJAMOS UNOS CAPITULOS: </h1>
+        <div class="video_videos">
+            <video src="/assets/video1.mp4" controls></video>
+            <video src="/assets/video2.mp4" controls></video>
+        </div>
+    </div>
+
+    <div class="carrusel" id="prota">
+        <h1>Rick Sánchez</h1>
+        <img src="/assets/rick.webp" alt="" class="img_rick active">
+        <img src="/assets/morty.webp" alt="" class="img_morty">
+        <img src="/assets/jerry.png" alt="" class="img_jerry">
+        <img src="/assets/beth.webp" alt="" class="img_beth">
+        <img src="/assets/summer.webp" alt="" class="img_summer">
+
+        <div class="buttons">
+            <div class="rick"></div>
+            <div class="morty"></div>
+            <div class="jerry"></div>
+            <div class="beth"></div>
+            <div class="summer"></div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h1>5 Temporadas</h1>
+            <p>Disfruta de todas las temporadas disponibles de Rick y Morty, cada una repleta de nuevos mundos, desafíos
+                y giros inesperados.</p>
+        </div>
+        <div class="card">
+            <h1>Más de 30 premios</h1>
+            <p>Aclamada por la crítica, Rick y Morty ha ganado más de 30 premios, incluyendo múltiples Emmy por su
+                creatividad y originalidad.</p>
+        </div>
+        <div class="card">
+            <h1>Aventuras interdimensionales</h1>
+            <p>Viaja entre dimensiones con Rick y Morty en sus alocadas aventuras por el espacio, enfrentándose a
+                desafíos y criaturas extraterrestres.</p>
+        </div>
+    </div>
+
+    <div class="hero" id="hero">
+        <img src="/assets/img2.png" alt="">
+        <div class="text_hero">
+            <h1>RICK Y MORTY</h1>
+            <p>
+                Rick y Morty te lleva en un viaje caótico entre el genio desquiciado de Rick Sánchez y las ingenuas
+                decisiones de su nieto Morty. Juntos desafían la lógica, la moral y la física misma en cada episodio,
+                llevándote al borde del humor más irreverente y la ciencia ficción más inesperada.</p>
+        </div>
+    </div>
+
+    <div class="footer" id="contact">
+        <input type="text" placeholder="Nombres" class="names">
+        <input type="text" placeholder="Apellidos" class="lastnames">
+        <input type="text" placeholder="Correo Electronico" class="email">
+        <input type="text" placeholder="Telefono" class="phone">
+        <input type="text" placeholder="Edad" class="years">
+        <textarea name="" id="" placeholder="Mensaje" class="coments"></textarea>
+        <a class="btn_enviar">Enviar</a>
+
+        <img src="/assets/rick.png" alt="">
+    </div>
+
+    <script src="/controller/script.js"></script>
+</body>
+
+</html>
